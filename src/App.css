@@ -6,21 +6,31 @@
 }
 
 .card {
-  border: 1px solid black;
+  border: 1px solid #00000047;
   width: 500px;
   height: 300px;
   border-radius: 25px;
-  background-image: url("./rainbow-blur.svg");  
+  background-image: url("./rainbow-blur.svg");
   background-repeat: no-repeat;
   background-size: 538px;
-  background-position: -44% 40%;
-
+  background-position: -44% 35%;
+  box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+/*   transform: perspective(900px) rotateX(60deg) scale(0.7);
+  transition: 0.5s ease all; */
 }
 
+/* .card:hover {
+  transform:
+  rotate(0deg)
+  scale(1)
+  translateY(10px);
+} */
+
 .photo {
-  width: 120px;
-  height: 130px;
-  background: blue;
+  width: 160px;
+  height: 176px;
+  background: #64649b;
   position: relative;
   left: 10px;
   top: 20px;
@@ -28,9 +38,22 @@
 
 .info {
   position: relative;
-  font-size: 2.5rem;
   left: 36%;
-  font-weight: 900;
-  bottom: 41%;
+  bottom: 57%;
   color: darkblue;
+}
+
+.state {
+  font-size: 3.5rem;
+  font-weight: 900;
+  filter: drop-shadow(0px 3px 1px #000000ad);
+}
+
+.text {
+  width: 50px;
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 5px;
 }

@@ -6,7 +6,7 @@ function App() {
       <div className="card">
         <div className="photo"></div>
         <div className="info">
-          <span>HAWAII</span>
+          <span className='state'>HAWAII</span> <span className='text'>driver license</span>
         </div>
       </div>
     </div>
