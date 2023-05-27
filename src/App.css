@@ -39,7 +39,7 @@
 .info {
   position: relative;
   left: 36%;
-  bottom: 57%;
+  bottom: 87%;
   color: darkblue;
 }
 
@@ -56,4 +56,10 @@
   text-transform: uppercase;
   font-weight: 500;
   margin-left: 5px;
+}
+
+.id-data {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
 }
