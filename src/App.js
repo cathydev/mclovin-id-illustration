@@ -6,9 +6,8 @@ function App() {
     <div className="container">
       <div className="card">
         <div className="photo"></div>
-        <div style={{position: "relative", top: "10px", left: "8px"}}>
+        <div style={{position: "relative", top: "10px", left: "3px"}}>
           <img src={Image} alt='barcode' width="160px" height="80px" />
-          <span>McLOVIN</span>
         </div>
         <div className="info">
           <span className='state'>HAWAII</span> <span className='text'>driver license</span>
