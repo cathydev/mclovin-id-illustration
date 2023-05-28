@@ -6,18 +6,15 @@ function App() {
     <div className="container">
       <div className="card">
         <div className="photo"></div>
-        <div style={{ position: "relative", top: "10px", left: "3px" }}>
+        <div className='barcode'>
           <img src={Image} alt='barcode' width="160px" height="80px" />
         </div>
         <div className="info">
           <span className='state'>HAWAII</span> <span className='text'>driver license</span>
           <div className='id-data'>
-            <div style={{
-              fontSize: "small",
-              marginBottom: "15px"
-            }}>Number 01-47-87441</div>
+            <div className='id-number'>Number <b>01-47-87441</b></div>
             <div>DOB 06/03/1981 EXP 06/03/2008</div>
-            <div class="angry-grid">
+            <div class="data-column">
               <div id="item-0">HT</div>
               <div id="item-1">WT</div>
               <div id="item-2">HAIR</div>
