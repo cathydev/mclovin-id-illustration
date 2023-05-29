@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
 .container {
   height: 100vh;
   display: flex;
@@ -10,7 +12,7 @@
   width: 500px;
   height: 300px;
   border-radius: 25px;
-  background-image: url("./rainbow-blur.svg");
+  background-image: url("./rainbow.svg");
   background-repeat: no-repeat;
   background-size: 538px;
   background-position: -44% 35%;
@@ -76,7 +78,7 @@
 .id-number {
   font-weight: 600;
   font-size: small;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .data-column {
@@ -168,4 +170,13 @@
   grid-column-start: 6;
   grid-row-end: 3;
   grid-column-end: 7;
+}
+
+.signature {
+  position: absolute;
+  left: 40px;
+  font-family: 'Meddon', cursive;
+  font-size: large;
+  color: black;
+  font-weight: 700;
 }

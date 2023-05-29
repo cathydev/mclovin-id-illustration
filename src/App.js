@@ -31,6 +31,7 @@ function App() {
             <div>ISSUE DATE CLASS RESTR ENDORSE</div>
             <div>06/18/1998 3</div>
           </div>
+            <span className='signature'>McLovin</span>
         </div>
       </div>
     </div>
