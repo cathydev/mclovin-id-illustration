@@ -52,6 +52,7 @@
   left: 36%;
   bottom: 87%;
   color: darkblue;
+  width: inherit;
 }
 
 .state {
@@ -179,4 +180,17 @@
   font-size: large;
   color: black;
   font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .container {
+    position: relative;
+  }
+
+  .card {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+  }
 }
